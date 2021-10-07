@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card {
+  border: 2px black solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 30%;
+  margin: 3%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  background-color: rgb(204, 196, 189);
+}
+
+.photo {
+  height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    border-radius: 7px;
+}
+.date {
+  width: 100%;
+}
+.title {
+  width: 100%
+}
+
