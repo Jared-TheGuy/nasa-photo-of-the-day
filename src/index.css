@@ -13,28 +13,34 @@ code {
 }
 
 .card {
-  border: 2px black solid;
+  border: 2px #9B9BBD solid;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 30%;
+  width: 27%;
   margin: 3%;
   margin-top: 1.5%;
   margin-bottom: 1.5%;
-  background-color: rgb(204, 196, 189);
+  background-color: #73738C;
+  border-radius: 10px;
 }
 
 .photo {
-  height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
-    border-radius: 7px;
+  height: 300px; 
+  width: 300px; 
+  border-radius: 7px;
 }
 .date {
   width: 100%;
 }
 .title {
   width: 100%
+}
+
+body {
+  background-image: linear-gradient(160deg, #161652, black);
+}
+p:hover {
+  color: royalblue;
 }
 
